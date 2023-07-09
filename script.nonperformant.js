@@ -29,9 +29,7 @@ function createElement(data) {
 
 window.setInterval(() => {
     let todos = [];
-    console.log("about to enter the loop..")
     for (let i = 0; i<Math.floor(Math.random() * 100); i++) {
-        console.log("entered")
         todos.push({
             id: i+1,
             title: "hello",
