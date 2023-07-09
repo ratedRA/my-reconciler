@@ -38,6 +38,5 @@ window.setInterval(() => {
             description: "first try"
         });
     }
-    console.log(todos);
     createElement(todos);
 }, 2000)
